@@ -1,6 +1,7 @@
 # Coding Challenge
 
 A web app to display GeoJSON features of a location using openstreetmap API.
+#### Node version : 14.18.0
 
 ## How to run
 
