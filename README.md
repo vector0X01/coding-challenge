@@ -1,6 +1,11 @@
 # Coding Challenge
 
-A web app to diplay GeoJSON features of a locatio0n using openstreetmap API.
+A web app to display GeoJSON features of a location using openstreetmap API.
+
+## How to run
+
+- Install dependencies via `npm ci`
+- Run `npm start` to run the app
 
 ## Available Scripts
 
