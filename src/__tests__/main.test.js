@@ -21,7 +21,7 @@ describe('Submit tests', () => {
     await waitFor(() => {
         expect(screen.getByTestId('error-msg')).toHaveTextContent('You requested too many nodes (limit is 50000). Either request a smaller area, or use planet.osm');
     })
-    }, 10000)
+    })
 
     test('on submit. check if max is lesser than min', async () => {
     render(<Main />);

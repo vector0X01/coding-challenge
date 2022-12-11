@@ -15,7 +15,6 @@ const Main = () => {
     const { data, error } = await getOSM(params);
     if (error) {
       setLoading(false);
-      console.log(error);
       setGeoJSON({ data: [], error: error.response.data });
     }
     if (data) {
