@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import './style.css';
 
 const InputField = (props) => {
   const { name, label, islongitude, islatitude, register, errors } = props;

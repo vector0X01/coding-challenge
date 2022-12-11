@@ -13,7 +13,7 @@ const InputForm = (props) => {
   });
 
   return (
-    <form className="input-form" onSubmit={handleSubmit?.(onSubmit)}>
+    <form onSubmit={handleSubmit?.(onSubmit)}>
       {error ? (
         <div data-testid="error-msg" className="error-text">
           {error}
