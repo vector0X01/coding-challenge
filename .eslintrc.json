@@ -20,9 +20,9 @@
     ],
     "rules": {
         "react/react-in-jsx-scope": "off",
-        "react/prop-type": "ignore",
+        "react/prop-types": 0,
         "indent": [
-            "error",
+            "off",
             "tab"
         ],
         "linebreak-style": [

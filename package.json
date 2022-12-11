@@ -24,6 +24,9 @@
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
+  "jest": {
+    "transformIgnorePatterns": ["<rootDir>/node_modules/.pnpm/(?!(axios)@)"]
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -43,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.20.2",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
