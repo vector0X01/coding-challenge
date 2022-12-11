@@ -21,13 +21,14 @@ Opens cypress for e2e testing.
 
 - Run `npm run cypress:open` on root folder of the project.
 - Click on the E2E Testing box which is configured.
-![cypress1](https://user-images.githubusercontent.com/110118492/206913808-9bce4567-fc30-40ca-8d92-1f42c86ec7c2.png)
+![cypress1](https://user-images.githubusercontent.com/110118492/206914269-519abda6-2be2-4124-a803-da1a1afc2df6.png)
 
 - Choose a browser from the list and click on "Start E2E Testing" button.
-![cypress2](https://user-images.githubusercontent.com/110118492/206913813-c2afa6d0-a051-45d7-b371-47837e3ea489.png)
+![cypress2](https://user-images.githubusercontent.com/110118492/206914275-c551dde5-bef4-40a8-b916-5f0d53612ee3.png)
 
 - A new browser window opens.
-![cypress3](https://user-images.githubusercontent.com/110118492/206913819-7dd0d6ea-43af-4ba2-a30b-780f766e4cf8.png)
+![cypress3](https://user-images.githubusercontent.com/110118492/206914279-9be2a2ae-148b-4d0c-9385-24e88e863fd6.png)
+
 - Click on main.cy.js under E2E specs in table.
 - The test runs and will display the status.
 ![cypress4](https://user-images.githubusercontent.com/110118492/206913832-79fafe61-ba79-4030-af39-7662798e673c.png)
